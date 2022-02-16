@@ -1,4 +1,4 @@
-This is the source for my personal website [Dex](https://anonymous.me).
+This is the source for my personal website [Dex](https://dexcodes.xyz).
 
 ## Built with
 - [Typescript](https://www.typescriptlang.org/)
@@ -7,6 +7,10 @@ This is the source for my personal website [Dex](https://anonymous.me).
 - [Framer Motion](https://www.framer.com/motion/)
 - [react icons](https://react-icons.github.io/react-icons/)
 
+## Screens
+![Home Screen](/src/assets/images/screens/home_page.png)
+![Skills Screen](/src/assets/images/screens/skills.png)
+![OpenSource Screen](/src/assets/images/screens/open_source.png)
 
 ## License
 

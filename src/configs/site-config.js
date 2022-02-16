@@ -9,18 +9,18 @@ import {
 import { FiMail } from "react-icons/fi";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Desmond Obisi. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Muhammad Ahmad. All Rights Reserved.`,
   author: {
-    name: "Desmond Obisi",
+    name: "Muhammad Ahmad",
     accounts: [
       {
-        url: "https://github.com/DesmondSanctity",
+        url: "https://github.com/MA-Ahmad",
         label: "Github Account",
         type: "gray",
         icon: <FaGithub />
       },
       {
-        url: "https://twitter.com/desmondcutest",
+        url: "https://twitter.com/muhammad_ahmaad",
         label: "Twitter Account",
         type: "twitter",
         icon: <FaTwitter />

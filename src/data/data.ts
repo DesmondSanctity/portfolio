@@ -1,112 +1,78 @@
-import PhaedraLogo from "assets/images/logos/phaedra.jpeg";
-import BrainxLogo from "assets/images/logos/brainxtech.png";
-import CodenyaLogo from "assets/images/logos/codenya.png";
-import BrainplowLogo from "assets/images/logos/brainplow.jpg";
-import UniLogo from "assets/images/logos/fast.png";
-import figma from "assets/images/skills/figma.png";
-import vscode from "assets/images/skills/vscode.png";
+import HTLogo from "assets/images/logos/huawei.png";
+import MCLogo from "assets/images/logos/logo.png";
+import TKLogo from "assets/images/logos/logo.png";
+import HNGLogo from "assets/images/logos/hng.png";
+import UniLogo from "assets/images/logos/futo.png";
 import react from "assets/images/skills/react.png";
-import ruby from "assets/images/skills/ruby.png";
-import rails from "assets/images/skills/rails.png";
 import javascript from "assets/images/skills/javascript.png";
 import typescript from "assets/images/skills/typescript.png";
 import html5 from "assets/images/skills/html-5.png";
 import css3 from "assets/images/skills/css3.png";
 import python from "assets/images/skills/python.png";
 import bootstrap from "assets/images/skills/bootstrap.png";
+import mui from "assets/images/skills/mui.png";
+import chakra from "assets/images/skills/chakra.png";
 import postgres from "assets/images/skills/postgresql.png";
-import redis from "assets/images/skills/redis.png";
 import mysql from "assets/images/skills/mysql.png";
-import heroku from "assets/images/skills/heroku.png";
-import docean from "assets/images/skills/digital-ocean.png";
+import mongo from "assets/images/skills/mongo.png";
 import aws from "assets/images/skills/aws.png";
-import nginx from "assets/images/skills/nginx.png";
+
 
 export const companies = [
   {
-    title: "Phaedra Solutions",
-    alt: "PS image",
-    role: "Senior Software Engineer",
-    skills: ["ruby", "rails", "typescript", "javascript", "react", "aws"],
-    period: "2019 - Present",
-    logo: PhaedraLogo
-  },
-  {
-    title: "Brainx Technologies",
-    alt: "BT image",
+    title: "Huawei Technologies",
+    alt: "HT image",
     role: "Software Engineer",
-    skills: ["ruby", "rails", "javascript", "python"],
-    period: "2018 - 2019",
-    logo: BrainxLogo
+    skills: ["python", "javascript", "react", "cloud"],
+    period: "2020 - Present",
+    logo: HTLogo
   },
   {
-    title: "Codenya Studio",
-    alt: "CS image",
-    role: "Co-founder, CTO",
-    skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-    period: "2018 - Present",
-    logo: CodenyaLogo
+    title: "Manifest and Company",
+    alt: "MC image",
+    role: "Software Engineer Intern",
+    skills: ["nodejs", "aws", "javascript", "react"],
+    period: "2020 - 2020",
+    logo: MCLogo
   },
   {
-    title: "Brainplow",
-    alt: "Brainplow image",
-    role: "Software Engineer",
-    skills: ["javascript", "python", "angular"],
-    period: "2017 - 2018",
-    logo: BrainplowLogo
+    title: "Tokwehu.com",
+    alt: "TK image",
+    role: "Web Application Developer",
+    skills: ["javascript", "react", "php", "sql"],
+    period: "2019 - 2020",
+    logo: TKLogo
+  },
+  {
+    title: "Hotel.ng",
+    alt: "HNG image",
+    role: "Frontend Engineer Intern",
+    skills: ["javascript", "react", "html", "css"],
+    period: "2018 - 2018",
+    logo: HNGLogo
   }
 ];
 
 export const institutes = [
   {
-    short_title: "FAST - NUCES",
-    title: "National University of Computer and Emerging Sciences",
-    alt: "Nuces image",
-    role: "Bachelor's Degree in Computer Science",
-    skills: ["project management", "web development", "data structures"],
-    period: "2013 - 2017",
-    startingYear: "2013",
+    short_title: "FUTO",
+    title: "Federal University of Technology Owerri",
+    alt: "FUTO image",
+    role: "Bachelor's Degree in Chemistry",
+    // skills: ["project management", "web development", "data structures"],
+    period: "2014 - 2019",
+    startingYear: "2014",
     logo: UniLogo,
-    awards: [
-      {
-        title: "Speed Programming Battle",
-        description:
-          "Won speed programming battle which held at FAST - NUCES.",
-        date: "May 1, 2015"
-      },
-      {
-        title: "Silver Medal",
-        description:
-          "This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.",
-        date: "May 1, 2014"
-      },
-      {
-        title: "Speed Programming Battle",
-        description:
-          "Won speed programming battle which held at FAST - NUCES.",
-        date: "Nov 1, 2013"
-      }
-    ]
   },
-  {
-    short_title: "Govt Degree College",
-    title: "Govt Degree College",
-    alt: "college image",
-    role: "FSC",
-    skills: ["mathematic", "chemistry", "physics"],
-    period: "2011 - 2013",
-    startingYear: "2011",
-    logo: ""
-  }
 ];
 
 export const skills = [
   {
-    name: "Ruby on Rails",
+    name: "JavaScript",
     description: "Web development",
-    link: "https://rubyonrails.org/",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     type: "development",
-    image: rails
+    image: javascript
   },
   {
     name: "React",
@@ -116,11 +82,11 @@ export const skills = [
     image: react
   },
   {
-    name: "Ruby",
-    description: "Web development, scrapping",
-    link: "https://www.ruby-lang.org/en/",
+    name: "Typescript",
+    description: "Web development",
+    link: "https://www.typescriptlang.org/",
     type: "development",
-    image: ruby
+    image: typescript
   },
   {
     name: "Python",
@@ -130,28 +96,14 @@ export const skills = [
     image: python
   },
   {
-    name: "Javascript",
-    description: "Web development",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    type: "development",
-    image: javascript
-  },
-  {
-    name: "Typescript",
-    description: "Web development",
-    link: "https://www.typescriptlang.org/",
-    type: "development",
-    image: typescript
-  },
-  {
-    name: "Html5",
+    name: "HTML5",
     description: "Web layouts",
     link: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
     type: "development",
     image: html5
   },
   {
-    name: "Css3",
+    name: "CSS3",
     description: "Web design",
     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
     type: "design",
@@ -165,6 +117,20 @@ export const skills = [
     image: bootstrap
   },
   {
+    name: "MUI",
+    description: "Web design",
+    link: "https://mui.com/",
+    type: "design",
+    image: mui
+  },
+  {
+    name: "Chakra UI",
+    description: "Web design",
+    link: "https://chakra-ui.com/",
+    type: "design",
+    image: chakra
+  },
+  {
     name: "Postgres",
     description: "Database",
     link: "https://www.postgresql.org/",
@@ -172,25 +138,18 @@ export const skills = [
     image: postgres
   },
   {
-    name: "Mysql",
+    name: "MySQL",
     description: "Database",
     link: "https://www.mysql.com/",
     type: "database",
     image: mysql
   },
   {
-    name: "Redis",
-    description: "Database",
-    link: "https://redis.io/",
-    type: "database",
-    image: redis
-  },
-  {
-    name: "Heroku",
+    name: "MongoDB",
     description: "Devops",
-    link: "https://www.heroku.com/",
-    type: "devops",
-    image: heroku
+    link: "https://www.mongodb.com/",
+    type: "database",
+    image: mongo
   },
   {
     name: "AWS",
@@ -199,32 +158,4 @@ export const skills = [
     type: "devops",
     image: aws
   },
-  {
-    name: "Digital Ocean",
-    description: "Devops",
-    link: "https://www.digitalocean.com/",
-    type: "devops",
-    image: docean
-  },
-  {
-    name: "Nginx",
-    description: "Web server",
-    link: "https://www.nginx.com/",
-    type: "devops",
-    image: nginx
-  },
-  {
-    name: "Visual Studio Code",
-    description: "Code editor of choice",
-    link: "https://code.visualstudio.com/",
-    type: "development",
-    image: vscode
-  },
-  {
-    name: "Figma",
-    description: "Collaborative Design",
-    link: "https://www.figma.com/",
-    type: "design",
-    image: figma
-  }
 ];
