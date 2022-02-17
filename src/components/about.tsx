@@ -141,6 +141,7 @@ const About = () => {
                 skills={company.skills}
                 period={company.period}
                 logo={company.logo}
+                alt = {''}
                 colorMode={colorMode}
               />
             </MotionBox>
@@ -166,6 +167,7 @@ const About = () => {
                 skills={institute.skills}
                 period={institute.period}
                 logo={institute.logo}
+                alt = {''}
                 colorMode={colorMode}
               />
             </MotionBox>

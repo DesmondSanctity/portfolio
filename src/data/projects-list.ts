@@ -7,52 +7,50 @@ import gosave from "assets/images/projects/gosave.png";
 export const projectsList = [
   {
     id: 1,
-    title: "Peterpitch",
+    title: "Project Mgt. Board",
     logo: peterpitch,
     blurHash: "L4ADc400P*Zi4Tu1y;Qo00pH#YXl",
-    link: "https://peterpitch.com/",
-    desc: `Peterpitch is a tool that takes the fun in your company seriously and turns your meetings into real performance boosters. With Peterpitch, you round up the pack of employees and turn even the shakiest puppies into true wolves.`,
-    technologies: ["rails", "react", "javascript"]
+    link: "https://project-mgt-board.netlify.app/",
+    desc: `Project Mgt. Board is a project management board to track progress of personal projects and works.
+    Inspired by Trello, it allows you to create working structre and track record for your projects, this web app is still a beta version.`,
+    technologies: ["typescript", "react", "javascript"]
   },
   {
     id: 2,
-    title: "Notch",
-    link: "https://www.hellonotch.com/",
+    title: "Prospa",
+    link: "https://prospa-frontend-one.vercel.app/",
     logo: notch,
     blurHash: "L0Aer?tjH[tPyAayj[j[00ay%xkB",
-    desc: `This is a project management website for design and procurement teams. 
-    It helps to collaborate and manage all of your floor plans in one place, writing specs, budgeting and timelines. 
-    This project management website provides a wide variety of features like timeline tracking, spec sheet generation, integrated budget, vendor + inventory management, user usage tracking and many more.`,
-    technologies: ["ruby", "rails", "javascript"]
+    desc: `Prospa is a mirror of a Nigerian fintech app that help small businesses and enterprise manage all their finances in one place.
+    It is essential for record tracking, effective business and other great toolings for business optimizations.`,
+    technologies: ["react", "mui", "javascript"]
   },
   {
     id: 3,
-    title: "Workof Ecommerce",
+    title: "Movie Nominator",
     logo: workof,
     blurHash: "L2M5%%0000EN00I:-oIp00kC?^sl",
-    link: "https://workof.com/",
-    desc: `This is an Ecommerce furniture site. It provides a single platform to multiple vendors where they can put their products on sale.`,
-    technologies: ["ruby", "rails", "javascript"]
+    link: "https://the-shoppies-by-dex.netlify.app/",
+    desc: `This web app helps you nominate your favorite movies. It uses OMDB API to query movies on search and allows users to nominate and stores their nomination too.`,
+    technologies: ["react", "chakra", "javascript", "api"]
   },
   {
     id: 4,
-    title: "Souq of Qatar",
+    title: "StarWars Directory",
     logo: souq,
     blurHash: "L1O^uE0679I00AGT?.H{00y7p2tK",
-    link: "https://www.souqofqatar.com/",
-    desc: `Souq of Qatar is online comparison website. This website is independent of any retailers, it displays the products of all the major stores.
-    Just like when you compare prices and products while visiting physical shops and stores, online price comparison behaves in the same way. 
-    It is an established method in the West for people to visit the online comparison websites first whenever they are in need to buy something. 
-    This provides the benefits of convenience, choice, and price efficiency.`,
-    technologies: ["ruby", "rails", "javascript"]
+    link: "https://starwars-api-frontend.netlify.app/",
+    desc: `StarWars Directory is an online museum where you can find details of all the Star Wars movie. The characters, the starships, the planets among many others.
+    The web app gives the visitors more information on these topics, an intereting way to refresh your memory of the wonderful piece.`,
+    technologies: ["react", "api", "javascript", "redux"]
   },
   {
     id: 5,
-    title: "GoSave",
+    title: "Meglio",
     logo: gosave,
     blurHash: "L09sWSxdH;s?%6axWAfk00V?%jax",
-    link: "https://gosavehq.com/",
-    desc: `The GoSave app let's you send allowances, assign chores, and approve spending all from your smartphone. These actions appear on each kid's toy, along with a live bank balance so they can watch their savings grow.`,
-    technologies: ["ruby", "rails"]
+    link: "https://desmondsanctity.github.io/meglio-landing-page/",
+    desc: `Meglio is a landing page for a crypto enterprise that showcases their mission, objectives and knowlwdge base on what they represent.`,
+    technologies: ["html", "javascript", "bulma-css"]
   }
 ];

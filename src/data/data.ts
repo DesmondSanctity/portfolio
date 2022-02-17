@@ -59,7 +59,7 @@ export const institutes = [
     title: "Federal University of Technology Owerri",
     alt: "FUTO image",
     role: "Bachelor's Degree in Chemistry",
-    // skills: ["project management", "web development", "data structures"],
+    skills: ["project management", "web development", "data structures"],
     period: "2014 - 2019",
     startingYear: "2014",
     logo: UniLogo,
