@@ -4,7 +4,8 @@ type project = {
     logo: string;
     link: string;
     desc: string;
-    tech: string[];
+    blurHash: string;
+    technologies: string[];
   };
 
   type article = {

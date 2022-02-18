@@ -25,8 +25,6 @@ import { ColorModeSwitcher } from "ColorModeSwitcher";
 import UserIcon from "assets/images/user_icon.png";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
-import { BsCheckCircle } from "react-icons/bs";
-import { MdTimeline } from "react-icons/md";
 import { BsBook } from "react-icons/bs";
 
 const webLinks = [
@@ -39,12 +37,11 @@ const mobileLinks = [
   { name: "Open Source", path: "/open-source" },
   { name: "Blog", path: "/blog" },
   { name: "Tech Stack", path: "/tech-stack" },
-  { name: "Developer Story", path: "/story-timeline" }
   
 ];
 
 interface NavLinkProps {
-  index?: string;
+  index?: number;
   name: string;
   path: string;
   onClose: () => void;
@@ -105,7 +102,6 @@ export default function TopNav() {
                 size={"sm"}
                 href={"/portfolio"}
                 src={UserIcon}
-                // src={"https://avatars2.githubusercontent.com/u/37842853?v=4"}
               />
             </Box>
             <HStack
@@ -163,30 +159,6 @@ export default function TopNav() {
                       </HStack>
                     </MenuItem>
                   </Link>
-                  <Link as={RouterNavLink} to="/story-timeline">
-                    <MenuItem>
-                      <HStack>
-                        <Icon
-                          as={MdTimeline}
-                          size={18}
-                          color={useColorModeValue("blue.500", "blue.200")}
-                        />
-                        <Text>Developer Story</Text>
-                      </HStack>
-                    </MenuItem>
-                  </Link>
-                  <Link as={RouterNavLink} to="/achievements">
-                    <MenuItem>
-                      <HStack>
-                        <Icon
-                          as={BsCheckCircle}
-                          size={18}
-                          color={useColorModeValue("blue.500", "blue.200")}
-                        />
-                        <Text>Achievements</Text>
-                      </HStack>
-                    </MenuItem>
-                  </Link>
                 </MenuList>
               </Menu>
             </HStack>
@@ -194,7 +166,7 @@ export default function TopNav() {
           <Flex alignItems={"center"}>
             <IconButton
               as={Link}
-              href={"https://github.com/MA-Ahmad"}
+              href={"https://github.com/DesmondSanctity"}
               size={"md"}
               icon={<FaGithub />}
               aria-label={"Github account"}
@@ -218,7 +190,7 @@ export default function TopNav() {
             <Stack as={"nav"} spacing={4}>
               {mobileLinks.map((link, index) => (
                 <NavLink
-                  index={index}
+                  key={index}
                   name={link.name}
                   path={link.path}
                   onClose={onClose}

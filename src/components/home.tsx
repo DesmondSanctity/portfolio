@@ -45,7 +45,6 @@ const Home = () => {
           <Avatar
             size={"2xl"}
             src={UserIcon}
-            // src={"https://avatars2.githubusercontent.com/u/37842853?v=4"}
           />
         </MotionBox>
         <MotionFlex
@@ -143,11 +142,6 @@ const Home = () => {
               <ListItem>
                 <Link as={NavLink} to="/tech-stack">
                   Tech Stack
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link as={NavLink} to="/achievements">
-                  Achievements
                 </Link>
               </ListItem>
             </UnorderedList>

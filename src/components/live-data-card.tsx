@@ -20,6 +20,7 @@ interface RepositoryCardProps {
   description: string;
   url: string;
   language: string;
+  created_at: string;
   stargazers_count: number;
   forks_count: number;
 }

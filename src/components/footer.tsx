@@ -35,34 +35,14 @@ const Footer = () => {
         justifyContent={["center", "space-between"]}
         alignItems="center"
         w="100%"
-        ju
       >
-        {/* <HStack> */}
         <Text
           textAlign="center"
           fontSize="sm"
           color={useColorModeValue("gray.500", "gray.200")}
         >
-          © {new Date().getFullYear()} Muhammad Ahmad{" "}
+          © Dex{" "} {new Date().getFullYear()} 
         </Text>
-        {/* <Box fontSize="md" textAlign="left">
-        Website built with
-        <Box
-          as="span"
-          mx="2"
-          _before={{
-            cursor: "default",
-            content: '"❤️"'
-          }}
-          _hover={{
-            _before: {
-              content: '"☕️"'
-            }
-          }}
-        />
-        in Pakistan{"  "}🇵🇰
-      </Box> */}
-        {/* </HStack> */}
         <Box textAlign="center">
           {siteConfig.author.accounts.map((sc, index) => (
             <IconButton

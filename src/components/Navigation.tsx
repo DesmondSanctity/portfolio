@@ -5,20 +5,11 @@ import Posts from "./blog/posts";
 import RepositoriesList from "./repositories-list";
 import Home from "./home";
 import TechStack from "./tech-stack";
-import Achievements from "./achievements";
 import NotebookPost from "./blog/notebook-app/notebook-post";
-// import EducationStory from "./education-story";
-import MyStory from "./my-story";
 
 const routes = [
   { path: "/", exact: true, name: "Home", component: Home },
   { path: "/about", exact: true, name: "About", component: About },
-  {
-    path: "/achievements",
-    exact: true,
-    name: "Achievements",
-    component: Achievements
-  },
   {
     path: "/blog/notebook-app",
     exact: true,
@@ -32,9 +23,7 @@ const routes = [
     component: RepositoriesList
   },
   { path: "/blog", exact: true, name: "Blog", component: Posts },
-  { path: "/tech-stack", exact: true, name: "Tools", component: TechStack },
-  { path: "/story-timeline", exact: true, name: "My Story", component: MyStory }
-
+  { path: "/tech-stack", exact: true, name: "Tools", component: TechStack }
 ];
 const Navigation = () => {
   return (

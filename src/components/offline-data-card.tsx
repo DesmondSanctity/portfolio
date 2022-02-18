@@ -20,7 +20,7 @@ import {
 } from "@chakra-ui/react";
 import { MotionBox } from "./motion";
 import { getTagColor } from "style/theme";
-import { AiOutlineStar, AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { CardTransition } from "./page-transitions";
 import LazyImage from "./lazy-image";
@@ -39,16 +39,12 @@ interface RepositoryCardProps {
 }
 const RepositoryCard = (props: RepositoryCardProps) => {
   const {
-    key,
     title,
-    description,
     cover,
     blurHash,
     technologies,
     url,
-    live,
     stars,
-    fork,
   } = props;
   const { isOpen, onOpen, onClose } = useDisclosure();
 

@@ -8,12 +8,12 @@ import StackGrid from "react-stack-grid";
 import CardSkeleton from "./card-skeleton";
 
 const LiveData = () => {
-  const { get, loading, error, data } = useFetch("https://api.github.com");
+  const { get, loading } = useFetch("https://api.github.com");
   const [repos, setRepos] = useState([]);
   const [isLargerThan720] = useMediaQuery("(min-width: 720px)");
   const [isLargerThan982] = useMediaQuery("(min-width: 982px)");
 
-  let columnWidth = 390;
+  let columnWidth;
   if (isLargerThan982) {
     columnWidth = 390;
   } else {
@@ -25,12 +25,12 @@ const LiveData = () => {
   }
 
   useEffect(() => {
-    get("/users/DesmondSanctity/repos").then(res => {
+    get("/users/DesmondSanctity/repos").then((res) => {
       setRepos(
         res?.sort((a, b) => b.stargazers_count - a.stargazers_count).slice(0, 8)
       );
     });
-  }, []);
+  });
 
   return (
     <PageSlideFade>
@@ -43,6 +43,7 @@ const LiveData = () => {
           <StackGrid columnWidth={columnWidth}>
             {repos?.map((repo, index) => (
               <RepositoryCard
+                key={index}
                 title={repo.name}
                 description={repo.description}
                 language={repo.language}
