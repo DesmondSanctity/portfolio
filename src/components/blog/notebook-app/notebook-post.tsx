@@ -103,7 +103,7 @@ const NotebookPost: React.SFC<PostProps> = () => {
           <Button
             ml={2}
             variant="outline"
-            size={["sm"]}
+            size={"sm"}
             color={useColorModeValue("green.600", "green.200")}
             bg={useColorModeValue("white", "gray.800")}
             leftIcon={<BiLinkExternal size={18} />}
@@ -115,7 +115,7 @@ const NotebookPost: React.SFC<PostProps> = () => {
           <Button
             ml={2}
             variant="outline"
-            size={["sm"]}
+            size={"sm"}
             color={useColorModeValue("green.600", "green.200")}
             bg={useColorModeValue("white", "gray.800")}
             leftIcon={<FiGithub size={18} />}
@@ -129,7 +129,7 @@ const NotebookPost: React.SFC<PostProps> = () => {
         <Carousel images={post.images} />
       </Box>
       <VStack spacing={5} align={"start"} mt={6}>
-        <Header fontSize={"xl"} mt={0} mb={0}>
+        <Header fontSize={"xl"} mt={0} mb={0} underlineColor={"none"}>
           What will you learn?
         </Header>
         <Box fontSize="md">
@@ -142,7 +142,7 @@ const NotebookPost: React.SFC<PostProps> = () => {
         </Box>
       </VStack>
       <VStack spacing={5} align={"start"} mt={6}>
-        <Header fontSize={"xl"} mt={0} mb={0}>
+        <Header fontSize={"xl"} mt={0} mb={0} underlineColor={"none"}>
           Built with
         </Header>
         <Box fontSize="md">
