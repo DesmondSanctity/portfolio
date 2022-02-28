@@ -84,7 +84,7 @@ const Home = () => {
             </Box>
             from{" "}
             <Box as="span" whiteSpace="nowrap">
-              Nigeria 🇵🇰
+              Nigeria
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
