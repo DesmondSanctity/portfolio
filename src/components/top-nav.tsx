@@ -22,20 +22,20 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { ColorModeSwitcher } from "ColorModeSwitcher";
-import UserIcon from "assets/images/user_icon.png";
+import UserIcon from "assets/images/user-icon.jpg";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { BsBook } from "react-icons/bs";
 
 const webLinks = [
   { name: "About", path: "/about" },
-  { name: "Blog", path: "/blog" }
+  { name: "Blog", path: "https://dexcodes.hashnode.dev/" }
 ];
 
 const mobileLinks = [
   { name: "About", path: "/about" },
   { name: "Open Source", path: "/open-source" },
-  { name: "Blog", path: "/blog" },
+  { name: "Blog", path: "https://dexcodes.hashnode.dev/" },
   { name: "Tech Stack", path: "/tech-stack" },
   
 ];
