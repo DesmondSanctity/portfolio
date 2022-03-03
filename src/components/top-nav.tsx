@@ -29,13 +29,13 @@ import { BsBook } from "react-icons/bs";
 
 const webLinks = [
   { name: "About", path: "/about" },
-  { name: "Blog", path: "https://dexcodes.hashnode.dev/" }
+  // { name: "Blog", path: "https://dexcodes.hashnode.dev/" }
 ];
 
 const mobileLinks = [
   { name: "About", path: "/about" },
   { name: "Open Source", path: "/open-source" },
-  { name: "Blog", path: "https://dexcodes.hashnode.dev/" },
+  // { name: "Blog", path: "https://dexcodes.hashnode.dev/" },
   { name: "Tech Stack", path: "/tech-stack" },
   
 ];
